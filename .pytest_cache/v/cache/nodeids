@@ -1,4 +1,9 @@
 [
+  "tests/test_database.py::test_admin_connection_works",
+  "tests/test_database.py::test_readonly_can_count_rows",
+  "tests/test_database.py::test_readonly_cannot_create_table",
+  "tests/test_database.py::test_readonly_cannot_delete",
+  "tests/test_database.py::test_readonly_cannot_insert",
   "tests/test_sql_parser.py::test_dangerous_statements_rejected[DROP TABLE users]",
   "tests/test_sql_parser.py::test_dangerous_statements_rejected[INSERT INTO users VALUES (1)]",
   "tests/test_sql_parser.py::test_dangerous_statements_rejected[UPDATE users SET name = 'x']",
