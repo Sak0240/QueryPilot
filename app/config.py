@@ -7,6 +7,9 @@ class Settings(BaseSettings):
 
     read_only_database_url: str
     admin_database_url: str
+    llm_base_url: str = ""
+    llm_api_key: str = ""
+    llm_model: str = ""
 
 
 settings = Settings()
