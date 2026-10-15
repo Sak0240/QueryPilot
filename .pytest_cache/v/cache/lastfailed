@@ -1,6 +1,3 @@
 {
-  "tests/test_llm.py": true,
-  "tests/test_recommendation_service.py::test_analyze_returns_everything": true,
-  "tests/test_recommendation_service.py::test_unsafe_sql_is_rejected_before_database": true,
-  "tests/test_recommendation_service.py::test_multiple_statements_rejected": true
+  "tests/test_llm.py": true
 }
