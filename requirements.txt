@@ -6,3 +6,4 @@ sqlglot
 psycopg[binary]
 pytest
 openai
+httpx
